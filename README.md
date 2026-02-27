@@ -11,7 +11,7 @@ El objetivo no es “reescribirlo todo”, sino **identificar el principio vulne
 ## Alumnos
 
 –Cristina Civico Ariza
-
+-Rafa Alcántara Sánchez
 ---
 
 ## Estructura del proyecto
