@@ -10,7 +10,7 @@ El objetivo no es “reescribirlo todo”, sino **identificar el principio vulne
 
 ## Alumnos
 
-– Cristina Civico Ariza --> https://github.com/GSCristina/ejercicioSolid.git
+- **Cristina Civico Ariza** --> [@GSCristina](https://github.com/GSCristina/ejercicioSolid.git)
 - **Rafa Alcantara**
 ---
 
