@@ -10,7 +10,7 @@ El objetivo no es “reescribirlo todo”, sino **identificar el principio vulne
 
 ## Alumnos
 
-–
+–Cristina Civico Ariza
 
 ---
 
