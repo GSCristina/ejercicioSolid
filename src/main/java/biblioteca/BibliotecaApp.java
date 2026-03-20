@@ -5,20 +5,16 @@ public class BibliotecaApp {
     public static void main(String[] args) {
         PrestamoService service = new PrestamoService();
 
-        Libro[] libros = new Libro[2];
-        libros[0] = new Libro("Dune");
-        libros[1] = new LibroReferencia("Diccionario RAE");
+        Libro dune = new Libro("Dune");
+        LibroReferencia diccionario = new LibroReferencia("Diccionario RAE");
 
-        // PRESTAR
-        for (Libro libro : libros) {
-            service.prestar(libro, "12345678A");
-        }
+
+        service.prestar(dune, "12345678A");
+        diccionario.consultarEnSala(); // No usamos el servicio de préstamos para esto
 
         System.out.println();
 
-        // DEVOLVER
-        for (Libro libro : libros) {
-            System.out.println("Devuelto (" + libro.getTitulo() + "): " + service.devolver(libro));
-        }
+        System.out.println("Devuelto (" + dune.getTitulo() + "): " + service.devolver(dune));
+
     }
 }
